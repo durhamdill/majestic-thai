@@ -19,9 +19,9 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path='/' component={About} />
         <Route path='/menu' component={Menu} />
         <Route path='/find' component={Find} />
+        <Route path='/' component={About} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
